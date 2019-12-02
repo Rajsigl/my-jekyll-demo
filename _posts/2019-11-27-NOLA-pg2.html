@@ -1,0 +1,14 @@
+---
+layout: post
+title: second post
+date: 2019-11-27
+img: juice.png
+category: Illustration, Branding, Logo, Design & Layout
+tags:
+desc: "this is a descriptoin of the page"
+---
+
+{% if page.img %}
+  <img class="caption__media" src="{{site.baseurl}}/assets/img/{{page.img}}
+  " width="400">
+{% endif %}
